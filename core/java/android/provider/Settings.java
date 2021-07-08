@@ -18337,6 +18337,12 @@ public final class Settings {
         public static final String ONE_HANDED_KEYGUARD_SIDE = "one_handed_keyguard_side";
 
         /**
+         * Package designated as global VPN provider.
+         * @hide
+         */
+        public static final String GLOBAL_VPN_APP = "global_vpn_app";
+
+        /**
          * A semi-colon separated list of Bluetooth hearing devices' local ambient volume data.
          * Each entry is encoded as a key=value list, separated by commas. Ex:
          *
