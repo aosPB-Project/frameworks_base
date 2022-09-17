@@ -341,6 +341,7 @@ public class InternetDialogDelegate implements
         }
         mLifecycleRegistry.setCurrentState(Lifecycle.State.DESTROYED);
         mMobileNetworkLayout.setOnClickListener(null);
+        mMobileNetworkLayout.setOnLongClickListener(null);
         mConnectedWifListLayout.setOnClickListener(null);
         if (mSecondaryMobileNetworkLayout != null) {
             mSecondaryMobileNetworkLayout.setOnClickListener(null);
@@ -447,6 +448,10 @@ public class InternetDialogDelegate implements
                 mInternetDialogController.setMobileDataEnabled(
                         dialog.getContext(), mDefaultDataSubId, isChecked, false);
             }
+        });
+        mMobileNetworkLayout.setOnLongClickListener(v -> {
+                mInternetDialogController.launchMobileNetworkSetting(v);
+                return true;
         });
         mConnectedWifListLayout.setOnClickListener(this::onClickConnectedWifi);
         mSeeAllLayout.setOnClickListener(this::onClickSeeMoreButton);
