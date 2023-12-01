@@ -52,4 +52,7 @@
         <!-- network type: "5G+" -->
         <item>@string/data_connection_5g_plus_carrier_2032</item>
     </integer-array>
+
+    <!-- Control whether to show Wifi standard in Wifi icon -->
+    <bool name="config_show_wifi_standard">true</bool>
 </resources>
