@@ -40,6 +40,9 @@ import java.util.Collections;
 import java.util.Set;
 import java.util.Map;
 
+/**
+ * @hide
+ */
 public class PropImitationHooks {
 
     private static final String TAG = "PropImitationHooks";
