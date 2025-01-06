@@ -28,4 +28,7 @@
 
     <!-- Color of the UDFPS pressed view -->
     <color name="config_udfpsColor">#ffffffff</color>
+
+    <!-- Whether to show ongoing progress bar chip in statusbar -->
+    <bool name="config_enableOngoingProgressBarChip">true</bool>
 </resources>
