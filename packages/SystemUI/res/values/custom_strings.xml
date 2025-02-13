@@ -72,4 +72,8 @@
 
     <!-- Screenshot Delete Toast -->
     <string name="delete_screenshot_toast">Screenshot deleted</string>
+
+    <!-- Whether to briefly keep the display in ON state when transitioning from
+         DOZE_AOD_PAUSED to DOZE_AOD state. -->
+    <bool name="config_displayTurnsOnWhenResumingAod">false</bool>
 </resources>
