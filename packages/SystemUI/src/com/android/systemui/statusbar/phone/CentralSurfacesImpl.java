@@ -1209,7 +1209,8 @@ public class CentralSurfacesImpl implements CoreStartable, CentralSurfaces {
 
         // Set up CollapsedStatusBarFragment and PhoneStatusBarView
         mStatusBarInitializer.setStatusBarViewUpdatedListener(
-                (statusBarViewController, statusBarTransitions) -> {
+                (statusBarView, statusBarViewController, statusBarTransitions) -> {
+                    mStatusBarView = statusBarView;
                     mPhoneStatusBarViewController = statusBarViewController;
                     mStatusBarTransitions = statusBarTransitions;
                     getNotificationShadeWindowViewController()
