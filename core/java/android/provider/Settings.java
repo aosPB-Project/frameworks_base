@@ -6666,6 +6666,12 @@ public final class Settings {
         public static final String LOCKSCREEN_BATTERY_INFO = "lockscreen_battery_info";
 
         /**
+         * Whether to show ongoing progressbar in the notification shade
+         * @hide
+         */
+        public static final String CONFIG_ONGOING_PROGRESSBAR = "config_enableOngoingProgressBarChip";
+
+        /**
          * Keys we no longer back up under the current schema, but want to continue to
          * process when restoring historical backup datasets.
          *
