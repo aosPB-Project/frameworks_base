@@ -597,8 +597,8 @@ public class GlobalActionsDialogLite implements DialogInterface.OnDismissListene
         RestartAction restartAction = new RestartAction();
 
         AdvancedAction restartRecoveryAction = new AdvancedAction(
-                com.android.systemui.R.drawable.ic_restart_recovery,
-                com.android.systemui.R.string.global_action_restart_recovery
+                com.android.systemui.res.R.drawable.ic_restart_recovery,
+                com.android.systemui.res.R.string.global_action_restart_recovery
         ) {
             @Override
             public void onPress() {
@@ -608,8 +608,8 @@ public class GlobalActionsDialogLite implements DialogInterface.OnDismissListene
         };
 
         AdvancedAction restartBootloaderAction = new AdvancedAction(
-                com.android.systemui.R.drawable.ic_restart_bootloader,
-                com.android.systemui.R.string.global_action_restart_bootloader
+                com.android.systemui.res.R.drawable.ic_restart_bootloader,
+                com.android.systemui.res.R.string.global_action_restart_bootloader
         ) {
             @Override
             public void onPress() {
@@ -619,8 +619,8 @@ public class GlobalActionsDialogLite implements DialogInterface.OnDismissListene
         };
 
         AdvancedAction restartSystemUiAction = new AdvancedAction(
-                com.android.systemui.R.drawable.ic_restart_ui,
-                com.android.systemui.R.string.global_action_restart_ui
+                com.android.systemui.res.R.drawable.ic_restart_ui,
+                com.android.systemui.res.R.string.global_action_restart_ui
         ) {
             @Override
             public void onPress() {
