@@ -15,6 +15,8 @@
  */
 package com.android.systemui;
 
+import com.android.systemui.res.R;
+
 import android.content.Context;
 import android.content.res.ColorStateList;
 import android.util.AttributeSet;
