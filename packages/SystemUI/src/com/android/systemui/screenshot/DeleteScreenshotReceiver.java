@@ -28,6 +28,7 @@ import android.content.Intent;
 import android.net.Uri;
 
 import com.android.systemui.dagger.qualifiers.Background;
+import com.android.systemui.res.R;
 
 import java.util.concurrent.Executor;
 
