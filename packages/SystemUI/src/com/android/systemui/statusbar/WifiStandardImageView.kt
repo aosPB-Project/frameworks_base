@@ -26,7 +26,7 @@ import android.net.wifi.WifiManager
 import android.provider.Settings
 import android.util.AttributeSet
 import android.widget.ImageView
-import com.android.systemui.R
+import com.android.systemui.res.R
 
 const val TUNER_KEY = "wifi_standard"
 
