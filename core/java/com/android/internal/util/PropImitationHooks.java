@@ -92,13 +92,13 @@ public class PropImitationHooks {
     private static final Map<String, String> DEFAULT_VALUES = Map.of(
         "BRAND", "google",
         "MANUFACTURER", "Google",
-        "DEVICE", "husky",
-        "FINGERPRINT", "google/husky_beta/husky:15/AP31.240517.022/11948202:user/release-keys",
-        "MODEL", "Pixel 8 Pro",
-        "PRODUCT", "husky_beta",
+        "DEVICE", "tokay",
+        "FINGERPRINT", "google/tokay_beta/tokay:16/BP22.250221.013/13218340:user/release-keys",
+        "MODEL", "Pixel 9",
+        "PRODUCT", "tokay_beta",
         "DEVICE_INITIAL_SDK_INT", "21",
-        "SECURITY_PATCH", "2024-07-05",
-        "ID", "AP31.240617.009"
+        "SECURITY_PATCH", "2025-03-05",
+        "ID", "BP22.250221.013"
     );
 
     private static final Map<String, String> sPixelNineProps = Map.of(
